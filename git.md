@@ -6,44 +6,47 @@ remote server: __https://github.com__
 
 username: __hong-chen__
 
-name: Hong Chen
+name: __Hong Chen__
 
-email: me@hongchen.cz
+email: __me@hongchen.cz__
 
 --------
 
-__First time git setup__
+__First time setup__
 
-- Mandatory
+- __Mandatory__
 
-`git config --global user.name "Hong Chen"`
+``` bash
+git config --global user.name "Hong Chen"
+git config --global user.email me@hongchen.cz
+```
 
-`git config --global user.email me@hongchen.cz`
+- __Optional__
 
-- Optional
-
-`git config --global core.editor vim`
-
-`git config credential.helper 'cache --timeout=3600'`
-
+``` bash
+git config --global core.editor vim
+git config credential.helper 'cache --timeout=3600'
+```
 --------
 
 __How to initialize a local directory?__
 
 e.g. `/Users/hchen/mygit/dotfiles`
 
-`cd /Users/hchen/mygit/dotfiles`
-
-`git init`
-
+``` bash
+cd /Users/hchen/mygit/dotfiles
+git init
+```
 --------
 
 __How to add a submodule?__
 
 e.g. [reveal.js](https://github.com/hakimel/reveal.js/)
 
-`git submodule add https://github.com/hakimel/reveal.js.git`
+``` bash
+git submodule add https://github.com/hakimel/reveal.js.git
+git submodule update --init
+```
 
-`git submodule update --init`
 
 --------
