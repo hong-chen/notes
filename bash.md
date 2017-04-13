@@ -76,6 +76,6 @@ make install
 
 - Found a bug in `data/ic/yang2013/Makefile` and `data/ic/yang2013/Makefile.in`;
 
-- After installation, add following to `.bash_profile`,
+- After installation, add the following to `.bash_profile`,
 
   `export LIBRADTRAN_DATA_FILES="/Users/hchen/soft/libradtran/v2.0.1/share/libRadtran/data/"`
