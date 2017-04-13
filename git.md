@@ -36,7 +36,7 @@ __Create a repository__
 
 <pre>
 git clone <b>https://github.com/hong-chen/notes.git</b>
-<\pre>
+</pre>
 
 - __Initialize local directory and link it to a repository server__
 
