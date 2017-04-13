@@ -1,20 +1,14 @@
 ## Shell (bash)
 
---------
-<pre>
-tar xvzf <b>some1.tar.gz</b> -C <b>/Users/hchen/Desktop/some2</b> --strip-components=1
-</pre>
---------
-
 ### Install [libRadtran](http://www.libradtran.org) on Mac
 
-First download all the packages:
+#### Download all the packages
 - [libradtran v2.0.1](http://www.libradtran.org/download/libRadtran-2.0.1.tar.gz)
 - [optprop](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:optprop_v2.1.tar.gz)
 - [ic_yang2013](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:ic_yang2013.tar.gz)
 - [reptran](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:reptran_2015_all.tar.gz)
 
-Extract the downloaded packages to a directory (e.g. `~/soft/libradtran`):
+#### Extract the downloaded packages to a directory (e.g. `~/soft/libradtran`)
 
 - libradtran v2.0.1
 
@@ -32,20 +26,50 @@ Extract the downloaded packages to a directory (e.g. `~/soft/libradtran`):
 
   `tar -xvzf reptran_2015_all.tar.gz -C ~/soft/libradtran/v2.0.1/`
 
-<pre>
-brew install gcc
-brew install netcdf
-brew install hdf5
-brew install zlib
-brew install gsl
-brew install ndiff
-brew install gawk
-brew install homebrew/science/nccmp
-brew install homebrew/science/petsc
+#### Check dependencies
 
+- gcc and gfortran
+
+  try:
+
+  `which gcc`
+
+  `which gfortran`
+
+  If nothing returns, install gcc through [homebrew](https://brew.sh/), e.g.,
+
+  `brew install gcc`
+
+- other libraries
+
+    `brew install hdf5`
+
+    `brew install zlib`
+
+    `brew install netcdf`
+
+    `brew install gsl`
+
+    `brew install ndiff`
+
+    `brew install gawk`
+
+    `brew install homebrew/science/nccmp`
+
+    `brew install open-mpi`
+
+#### Install with GNU make
+<pre>
+./configure --prefix=/Users/hchen/soft/libradtran/v2.0.1
 make
 make check
-make install (a bug in data/ic/yang2013/Makefile is found)
-
-export LIBRADTRAN_DATA_FILES="/Users/hoch4240/Chen/soft/libradtran/v2.0.1/share/libRadtran/data/"
+make install
 </pre>
+
+#### Notes
+
+- Found a bug in `data/ic/yang2013/Makefile` and `data/ic/yang2013/Makefile.in`
+
+- After installation, add following to `.bash_profile`,
+
+  `export LIBRADTRAN_DATA_FILES="/Users/hchen/soft/libradtran/v2.0.1/share/libRadtran/data/"`
