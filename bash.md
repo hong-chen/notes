@@ -6,7 +6,13 @@ tar xvzf <b>some1.tar.gz</b> -C <b>/Users/hchen/Desktop/some2</b> --strip-compon
 </pre>
 --------
 
-### Install libRadtran on Mac
+### Install [libRadtran](http://www.libradtran.org) on Mac
+
+First download all the packages:
+- ([libradtran v2.0.1](http://www.libradtran.org/download/libRadtran-2.0.1.tar.gz))
+- ([optprop](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:optprop_v2.1.tar.gz))
+- ([ic_yang2013](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:ic_yang2013.tar.gz))
+- ([reptran](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:reptran_2015_all.tar.gz))
 
 <pre>
 brew install gcc
