@@ -40,7 +40,7 @@ git clone <b>https://github.com/hong-chen/dotfiles.git</b>
 
 <br><br>
 
-- __Initialize local directory and link it to a repository server__
+- __Initialize local directory and link it to a server repository__
 
 First go to the directory you want to initialize,
 
@@ -55,10 +55,10 @@ git init
 </pre>
 
 Then go to your git server, e.g., [github](https://github.com), and
-create a emtpy new repository (no .gitignore, no README).
+create an emtpy new repository (no .gitignore, no README).
 
-e.g., create a repository named `dotfiles` under account `hong-chen`.
-There will be a link for the repository:
+> Create a repository named `dotfiles` under account `hong-chen`.
+> There will be a link for the repository:
 
 `https://github.com/hong-chen/dotfiles.git`.
 
@@ -73,37 +73,40 @@ __Basic commands__
 
 - __Before changes are made__
 
-```bash
+<pre>
 git status # show current status
 git branch # show current branch name
 
 # create new branch named "develop-test1"
-git branch develop-test1
+git branch <b>develop-test1</b>
 # checkout to branch "develop-test1"
-git checkout develop-test1
+git checkout <b>develop-test1</b>
 
 # create a new branch named "develop-test2" and checkout to it
-git checkout -b develop-test2
-```
+git checkout -b <b>develop-test2</b>
+</pre>
+
+<br><br>
 
 - __After changes are made__
 
-```bash
-git checkout develop-test2
+<pre>
+git checkout <b>develop-test2</b>
 # ... after add a new file "README.md" ...
-git add README.md
-git commit -m "create README.md"
-git pull origin develop-test2
-git push -u origin develop-test2
-```
+git add <b>README.md</b>
+git commit -m "<b>create README.md</b>"
+git pull origin <b>develop-test2</b>
+git push -u origin <b>develop-test2</b>
+</pre>
+
 --------
 
 __How to add a submodule?__
 
 e.g. [reveal.js](https://github.com/hakimel/reveal.js/)
 
-``` bash
-git submodule add https://github.com/hakimel/reveal.js.git
+<pre>
+git submodule add <b>https://github.com/hakimel/reveal.js.git</b>
 git submodule update --init
-```
+</pre>
 --------
