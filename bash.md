@@ -12,21 +12,25 @@
 
 - libradtran v2.0.1
 
-  `tar -xvzf libRadtran-2.0.1.tar.gz -C ~/soft/libradtran/v2.0.1 --strip-components=1`
+  `tar -xvzf libRadtran-2.0.1.tar.gz -C ~/soft/libradtran/v2.0.1_inst --strip-components=1`
 
 - optprop
 
-  `tar -xvzf optprop_v2.1.tar.gz -C ~/soft/libradtran/v2.0.1/`
+  `tar -xvzf optprop_v2.1.tar.gz -C ~/soft/libradtran/v2.0.1_inst/`
 
 - ic_yang2013
 
-  `tar -xvzf ic_yang2013.tar.gz -C ~/soft/libradtran/v2.0.1/data/ic/yang2013/`
+  `tar -xvzf ic_yang2013.tar.gz -C ~/soft/libradtran/v2.0.1_inst/data/ic/yang2013/`
 
 - reptran
 
-  `tar -xvzf reptran_2015_all.tar.gz -C ~/soft/libradtran/v2.0.1/`
+  `tar -xvzf reptran_2015_all.tar.gz -C ~/soft/libradtran/v2.0.1_inst/`
 
 #### Check dependencies
+
+- Xcode
+
+  Download Xcode from App Store and install command line tools (simply open it).
 
 - gcc and gfortran
 
@@ -58,7 +62,7 @@
 
     `brew install open-mpi`
 
-#### Install with GNU make
+#### Install libRadtran with GNU make
 <pre>
 ./configure --prefix=/Users/hchen/soft/libradtran/v2.0.1
 make
