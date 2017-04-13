@@ -74,15 +74,12 @@ __Basic commands__
 - __Before changes are made__
 
 <pre>
-git status # show current status
-git branch # show current branch name
+git status
+git branch
 
-# create new branch named "develop-test1"
 git branch <b>develop-test1</b>
-# checkout to branch "develop-test1"
 git checkout <b>develop-test1</b>
 
-# create a new branch named "develop-test2" and checkout to it
 git checkout -b <b>develop-test2</b>
 </pre>
 
@@ -92,7 +89,6 @@ git checkout -b <b>develop-test2</b>
 
 <pre>
 git checkout <b>develop-test2</b>
-# ... after add a new file "README.md" ...
 git add <b>README.md</b>
 git commit -m "<b>create README.md</b>"
 git pull origin <b>develop-test2</b>
