@@ -2,7 +2,13 @@
 
 --------
 
+### Customize (`~/.bashrc` or `~/.bash_profile`)
+
+#### _Prompt_
+
 - [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
+
+  Add the following to `~/.bash_profile`,
 
   ```bash
   if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
