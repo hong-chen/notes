@@ -32,6 +32,7 @@ git config credential.helper 'cache --timeout=3600'
 
 __Basic commands__
 
+- __Before changes are made__
 ```bash
 git status # show current status
 git branch # show current branch name
@@ -43,6 +44,17 @@ git checkout develop-test1
 
 # create a new branch named "develop-test2" and checkout to it
 git checkout -b develop-test2
+```
+
+- __After changes are made__
+
+```bash
+git checkout develop-test2
+# ... after add a new file "README.md" ...
+git add README.md
+git commit -m "create README.md"
+git pull origin develop-test2
+git push -u origin develop-test2
 ```
 
 --------
