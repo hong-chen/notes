@@ -17,15 +17,15 @@ __First time setup__
 - __Mandatory__
 
 ```bash
-git config --global user.name "Hong Chen"
-git config --global user.email me@hongchen.cz
+git config --global user.name "___Hong Chen___"
+git config --global user.email ___me@hongchen.cz___
 ```
 
 - __Optional__
 
 ```bash
-git config --global core.editor vim
-git config credential.helper 'cache --timeout=3600'
+git config --global core.editor ___vim___
+git config credential.helper 'cache --timeout=___3600___'
 ```
 
 --------
@@ -35,15 +35,36 @@ __Create a repository__
 - __Clone from existing repository on server__
 
 ```bash
-git clone https://github.com/hong-chen/notes.git
+git clone ___https://github.com/hong-chen/notes.git___
 ```
 
 - __Initialize local directory and link it to a repository server__
-```
-git init
-git remote add origin https://github.com/hong-chen/notes.git
+
+First go to the directory you want to initialize,
+
+```bash
+cd /Users/hchen/mygit/dotfiles
 ```
 
+then,
+
+```bash
+git init
+```
+
+Then go to your git server, e.g., [github](https://github.com), and
+create a emtpy new repository (no .gitignore, no README).
+
+e.g., create a repository named "dotfiles" under account "hong-chen".
+There will be a link for the repository:
+
+`https://github.com/hong-chen/dotfiles.git`.
+
+Link your local directory to the newly created repository,
+
+```bash
+git remote add origin https://github.com/hong-chen/dotfiles.git
+```
 --------
 
 __Basic commands__
@@ -73,17 +94,6 @@ git commit -m "create README.md"
 git pull origin develop-test2
 git push -u origin develop-test2
 ```
-
---------
-
-__How to initialize a local directory?__
-
-e.g. `/Users/hchen/mygit/dotfiles`
-
-```bash
-cd /Users/hchen/mygit/dotfiles
-git init
-```
 --------
 
 __How to add a submodule?__
@@ -94,5 +104,4 @@ e.g. [reveal.js](https://github.com/hakimel/reveal.js/)
 git submodule add https://github.com/hakimel/reveal.js.git
 git submodule update --init
 ```
-
 --------
