@@ -16,17 +16,17 @@ __First time setup__
 
 - __Mandatory__
 
-```bash
-git config --global user.name "___Hong Chen___"
-git config --global user.email ___me@hongchen.cz___
-```
+<pre>
+git config --global user.name "<b>Hong Chen</b>"
+git config --global user.email <b>me@hongchen.cz</b>
+</pre>
 
 - __Optional__
 
-```bash
-git config --global core.editor ___vim___
-git config credential.helper 'cache --timeout=___3600___'
-```
+<pre>
+git config --global core.editor <b>vim</b>
+git config credential.helper 'cache --timeout=<b>3600</b>'
+</pre>
 
 --------
 
@@ -34,37 +34,37 @@ __Create a repository__
 
 - __Clone from existing repository on server__
 
-```bash
-git clone ___https://github.com/hong-chen/notes.git___
-```
+<pre>
+git clone <b>https://github.com/hong-chen/notes.git</b>
+<\pre>
 
 - __Initialize local directory and link it to a repository server__
 
 First go to the directory you want to initialize,
 
-```bash
-cd /Users/hchen/mygit/dotfiles
-```
+<pre>
+cd <b>/Users/hchen/mygit/dotfiles</b>
+</pre>
 
 then,
 
-```bash
+<pre>
 git init
-```
+</pre>
 
 Then go to your git server, e.g., [github](https://github.com), and
 create a emtpy new repository (no .gitignore, no README).
 
-e.g., create a repository named "dotfiles" under account "hong-chen".
+e.g., create a repository named `dotfiles` under account `hong-chen`.
 There will be a link for the repository:
 
 `https://github.com/hong-chen/dotfiles.git`.
 
 Link your local directory to the newly created repository,
 
-```bash
-git remote add origin https://github.com/hong-chen/dotfiles.git
-```
+<pre>
+git remote add origin <b>https://github.com/hong-chen/dotfiles.git</b>
+</pre>
 --------
 
 __Basic commands__
