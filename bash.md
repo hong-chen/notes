@@ -1,5 +1,20 @@
 ## Shell (bash)
 
+--------
+
+- [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
+
+  ```bash
+  if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+      GIT_PROMPT_START="\e[0;32m\u\e[0m at \e[0;31m$(scutil --get ComputerName)\e[0m in \e[0;34m\$
+      GIT_PROMPT_END="\n->"
+      __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
+      source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+  fi
+  ```
+
+--------
+
 ### Install [libRadtran](http://www.libradtran.org) on Mac
 
 #### _Download all the packages_
