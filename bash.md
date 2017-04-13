@@ -2,7 +2,7 @@
 
 --------
 
-### Customize (`~/.bashrc` or `~/.bash_profile`)
+### Customize (`~/.bash_profile`)
 
 #### _Prompt_
 
