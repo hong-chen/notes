@@ -35,8 +35,10 @@ __Create a repository__
 - __Clone from existing repository on server__
 
 <pre>
-git clone <b>https://github.com/hong-chen/notes.git</b>
+git clone <b>https://github.com/hong-chen/dotfiles.git</b>
 </pre>
+
+<br><br>
 
 - __Initialize local directory and link it to a repository server__
 
