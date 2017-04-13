@@ -30,7 +30,7 @@
 
 - Xcode
 
-  Download Xcode from App Store and install command line tools (simply open it).
+  Download Xcode from App Store and install command line tools (simply open Xcode).
 
 - gcc and gfortran
 
@@ -72,7 +72,9 @@ make install
 
 #### Notes
 
-- Found a bug in `data/ic/yang2013/Makefile` and `data/ic/yang2013/Makefile.in`
+- If Anaconda is installed, remove it from `PATH` (simply comment out related lines in `.bash_profile`) before installation;
+
+- Found a bug in `data/ic/yang2013/Makefile` and `data/ic/yang2013/Makefile.in`;
 
 - After installation, add following to `.bash_profile`,
 
