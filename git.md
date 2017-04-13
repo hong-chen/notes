@@ -12,7 +12,7 @@ email: __me@hongchen.cz__
 
 --------
 
-__First time setup__
+### __First time setup__
 
 - __Mandatory__
 
@@ -30,7 +30,7 @@ git config credential.helper 'cache --timeout=<b>3600</b>'
 
 --------
 
-__Create a repository__
+### __Create a repository__
 
 - __Clone from existing repository on server__
 
@@ -69,7 +69,7 @@ git remote add origin <b>https://github.com/hong-chen/dotfiles.git</b>
 </pre>
 --------
 
-__Basic commands__
+### __Basic commands__
 
 - __Before changes are made__
 
@@ -97,7 +97,7 @@ git push -u origin <b>develop-test2</b>
 
 --------
 
-__How to add a submodule?__
+### __Add a submodule__
 
 e.g. [reveal.js](https://github.com/hakimel/reveal.js/)
 
