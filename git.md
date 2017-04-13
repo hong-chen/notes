@@ -30,9 +30,26 @@ git config credential.helper 'cache --timeout=3600'
 
 --------
 
+__Create a repository__
+
+- __Clone from existing repository on server__
+
+```bash
+git clone https://github.com/hong-chen/notes.git
+```
+
+- __Initialize local directory and link it to a repository server__
+```
+git init
+git remote add origin https://github.com/hong-chen/notes.git
+```
+
+--------
+
 __Basic commands__
 
 - __Before changes are made__
+
 ```bash
 git status # show current status
 git branch # show current branch name
