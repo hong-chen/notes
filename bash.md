@@ -1,0 +1,27 @@
+## Shell (bash)
+
+--------
+<pre>
+tar xvzf <b>some1.tar.gz</b> -C <b>/Users/hchen/Desktop/some2</b> --strip-components=1
+</pre>
+--------
+
+### Install libRadtran on Mac
+
+<pre>
+brew install gcc
+brew install netcdf
+brew install hdf5
+brew install zlib
+brew install gsl
+brew install ndiff
+brew install gawk
+brew install homebrew/science/nccmp
+brew install homebrew/science/petsc
+
+make
+make check
+make install (a bug in data/ic/yang2013/Makefile is found)
+
+export LIBRADTRAN_DATA_FILES="/Users/hoch4240/Chen/soft/libradtran/v2.0.1/share/libRadtran/data/"
+</pre>
