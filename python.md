@@ -2,7 +2,7 @@
 
 --------
 
-### PYTHONPATH
+### _PYTHONPATH_
 
 For example, one has a code named `my_func.py` contains resuable
 functions (e.g., `FUNCTION_1`, `FUNCTION_2`, ...).
@@ -37,7 +37,7 @@ in any other code,
 
 --------
 
-### [matplotlib](https://matplotlib.org/)
+### [_matplotlib_](https://matplotlib.org/)
 
 - __Change font to Times New Roman__
 
@@ -58,7 +58,7 @@ in any other code,
 
 --------
 
-### [multiprocessing](https://docs.python.org/3.6/library/multiprocessing.html)
+### [_multiprocessing_](https://docs.python.org/3.6/library/multiprocessing.html)
 
 Assume we have the following functions,
 
