@@ -6,6 +6,7 @@
 - __Change font to Times New Roman__
 
   - On Mac
+
     After Microsoft Office has been installed, simply add `Times New Roman`
     to `font.serif` and `font.sans-serif` in `matplotlibrc` file.
 
