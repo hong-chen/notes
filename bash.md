@@ -21,6 +21,41 @@
 
 --------
 
+### SSH login without password
+
+Notes:
+
+ - `username`: user name, e.g., `hchen`;
+ - `remoteserver`: remote server, e.g., `skynet.colorado.edu`.
+
+On local computer, type the following in a terminal
+
+```bash
+ssh-keygen -t rsa
+```
+
+for convenience, press `enter` two times.
+
+On local computer, type the following in a terminal
+
+```bash
+ssh username@remoteserver mkdir -p ~/.ssh
+```
+
+and enter the password for the account on remote server.
+
+On local computer, type the following in a terminal
+
+```bash
+cat ~/.ssh/id_rsa.pub | ssh username@remoteserver 'cat >> ~/.ssh/authorized_keys'
+```
+
+and enter the password for the account on remote server.
+
+Now you can login in `username@remoteserver` without typing password.
+
+--------
+
 ### Install [libRadtran](http://www.libradtran.org) on Mac
 
 #### _Download all the packages_
