@@ -22,7 +22,6 @@
 
 `gg`: move to the beginning of the file (normal mode);
 
-
 --------
 
 ### Plugins
