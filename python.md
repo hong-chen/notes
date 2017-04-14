@@ -1,6 +1,42 @@
 ## Python
 
 --------
+
+### PYTHONPATH
+
+For example, one has a code named `my_func.py` contains resuable
+functions (e.g., `FUNCTION_1`, `FUNCTION_2`, ...).
+
+For example, if one want to use `FUNCTION_1` from `my_func.py`
+in any other code,
+
+- old way
+
+  If `my_func.py` does not exist in current working directory,
+
+  - copy `my_func.py` to current working directory;
+
+  - in new code, `from my_func import FUNCTION_1`.
+
+- new way
+
+  - put `my_func.py` under a directory, e.g., `/Users/hchen/code/reuse/python`;
+
+  - in `~/.bashrc` (or `~/.bash_profile`), add
+    ```bash
+    export PYTHONPATH="${PYTHONPATH}:/Users/hchen/code/reuse/python"
+    ```
+
+    then
+
+    ```
+    source ~/.bashrc
+    ```
+
+  - now in new code, `from my_func import FUNCTION_1`.
+
+--------
+
 ### [matplotlib](https://matplotlib.org/)
 
 - __Change font to Times New Roman__
