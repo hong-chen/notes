@@ -29,7 +29,7 @@
 - [ic_yang2013](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:ic_yang2013.tar.gz)
 - [reptran](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:reptran_2015_all.tar.gz)
 
-#### _Extract the downloaded packages to a directory (e.g. `~/soft/libradtran`)_
+#### _Extract the downloaded packages to a directory (e.g. `~/soft/libradtran/v2.0.1_inst`)_
 
 - libradtran v2.0.1
 
