@@ -16,8 +16,64 @@
     font.sans-serif : <b>Times New Roman</b>, DejaVu Sans, Bitstream Vera Sans ...
     </pre>
 
-
   - On Linux
 
+    [dotfiles](https://github.com/hong-chen/dotfiles)
+
 --------
+
+### [multiprocessing](https://docs.python.org/3.6/library/multiprocessing.html)
+
+Assume we have the following functions,
+
+```python
+def FUNCTION_1(a):
+    print(a**2)
+
+def FUNCTION_2(a, b):
+    print(a+b)
+```
+
+<br><br>
+
+> Use 8 processors to run `FUNCTION_1` by passing
+> 0, 1, 2, ..., 7 to `a` to the function.
+
+```python
+import multiprocessing as mp
+
+statements = np.arange(8)
+
+pool = mp.Pool(processes=8)
+pool.outputs = pool.map(FUNCTION_1, statements)
+pool.close()
+pool.join()
+```
+<br><br>
+
+> Use 8 processors to run `FUNCTION_2` by passing
+> 0, 1, 2, ..., 7 to `a` and 7, 6, 5, ..., 0 to `b`
+> to the function.
+
+First we need to modify `Function_2` to
+```python
+def FUNCTION_2(args):
+    a, b = args
+    print(a+b)
+```
+
+Then
+```python
+import multiprocessing as mp
+
+a = np.arange(8)
+b = np.arange(8)[::-1]
+
+statements = zip(a, b)
+
+pool = mp.Pool(processes=8)
+pool.outputs = pool.map(FUNCTION_2, statements)
+pool.close()
+pool.join()
+```
 --------
