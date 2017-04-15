@@ -4,7 +4,7 @@
 
 ### Customize (`~/.bash_profile`)
 
-#### _Prompt_
+#### *Prompt*
 
 - [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt)
 
@@ -38,33 +38,33 @@ for convenience, press `enter` two times.
 
 On local computer, type the following in a terminal
 
-```bash
-ssh username@remoteserver mkdir -p ~/.ssh
-```
+<pre>
+ssh <b>username</b>@<b>remoteserver</b> mkdir -p ~/.ssh
+</pre>
 
 and enter the password for the account on remote server.
 
 On local computer, type the following in a terminal
 
-```bash
-cat ~/.ssh/id_rsa.pub | ssh username@remoteserver 'cat >> ~/.ssh/authorized_keys'
-```
+<pre>
+cat ~/.ssh/id_rsa.pub | ssh <b>username</b>@<b>remoteserver</b> 'cat >> ~/.ssh/authorized_keys'
+</pre>
 
 and enter the password for the account on remote server.
 
-Now you can login in `username@remoteserver` without typing password.
+Now you can login in <code><b>username</b>@<b>remoteserver</b></code> without typing password.
 
 --------
 
 ### Install [libRadtran](http://www.libradtran.org) on Mac
 
-#### _Download all the packages_
+#### *Download all the packages*
 - [libradtran v2.0.1](http://www.libradtran.org/download/libRadtran-2.0.1.tar.gz)
 - [optprop](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:optprop_v2.1.tar.gz)
 - [ic_yang2013](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:ic_yang2013.tar.gz)
 - [reptran](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:reptran_2015_all.tar.gz)
 
-#### _Extract the downloaded packages to a directory (e.g. `~/soft/libradtran/v2.0.1_inst`)_
+#### *Extract the downloaded packages to a directory (e.g. `~/soft/libradtran/v2.0.1_inst`)*
 
 - libradtran v2.0.1
 
@@ -82,7 +82,7 @@ Now you can login in `username@remoteserver` without typing password.
 
   `tar -xvzf reptran_2015_all.tar.gz -C ~/soft/libradtran/v2.0.1_inst/`
 
-#### _Check dependencies_
+#### *Check dependencies*
 
 - Xcode
 
@@ -118,7 +118,7 @@ Now you can login in `username@remoteserver` without typing password.
 
     `brew install open-mpi`
 
-#### _Install libRadtran with GNU make_
+#### *Install libRadtran with GNU make*
 
 <pre>
 ./configure --prefix=/Users/hchen/soft/libradtran/v2.0.1
@@ -127,7 +127,7 @@ make check
 make install
 </pre>
 
-#### _Notes_
+#### *Notes*
 
 - If Anaconda is installed, remove it from `PATH` (simply comment out related lines in `.bash_profile`) before installation;
 
