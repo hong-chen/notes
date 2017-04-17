@@ -2,10 +2,10 @@
 
 Notes using [markdown](https://daringfireball.net/projects/markdown/syntax).
 
-- bash.md
+- [bash.md](https://github.com/hong-chen/notes/blob/master/bash.md)
 
-- vim.md
+- [vim.md](https://github.com/hong-chen/notes/blob/master/vim.md)
 
-- python.md
+- [python.md](https://github.com/hong-chen/notes/blob/master/python.md)
 
-- git.md
+- [git.md](https://github.com/hong-chen/notes/blob/master/git.md)
