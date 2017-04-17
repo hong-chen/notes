@@ -64,7 +64,7 @@ Now you can login in <code><b>username</b>@<b>remoteserver</b></code> without ty
 - [ic_yang2013](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:ic_yang2013.tar.gz)
 - [reptran](http://www.meteo.physik.uni-muenchen.de/~libradtran/lib/exe/fetch.php?media=download:reptran_2015_all.tar.gz)
 
-#### *Extract the downloaded packages to a directory (e.g. `~/soft/libradtran/v2.0.1_inst`)*
+#### *Extract the downloaded packages to a existing directory (e.g. `~/soft/libradtran/v2.0.1_inst`)*
 
 - libradtran v2.0.1
 
