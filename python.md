@@ -56,6 +56,9 @@ in any other code,
 
     [dotfiles](https://github.com/hong-chen/dotfiles)
 
+- __Plotting GeoTIFF__
+
+ - `pyplot.imshow` is the fastest way if the RGB array is large.
 --------
 
 ### [_multiprocessing_](https://docs.python.org/3.6/library/multiprocessing.html)
