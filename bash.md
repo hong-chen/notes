@@ -34,7 +34,7 @@ On local computer, type the following in a terminal
 ssh-keygen -t rsa
 ```
 
-for convenience, press `enter` two times.
+for convenience, hit `enter` two times.
 
 On local computer, type the following in a terminal
 
