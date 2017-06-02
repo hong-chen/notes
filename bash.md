@@ -54,7 +54,12 @@ and enter the password for the account on remote server.
 
 Now you can login in <code><b>username</b>@<b>remoteserver</b></code> without typing password.
 
---------
+---
+### `Warning: No xauth data; using fake authentication data for X11 forwarding.` on Mac
+
+Add `alias ssh="ssh -o 'XAuthLocation=/opt/X11/bin/xauth'"` to `.bashrc`.
+
+---
 
 ### Install [libRadtran](http://www.libradtran.org) on Mac
 
