@@ -42,7 +42,7 @@ On local computer, type the following in a terminal
 ssh <b>username</b>@<b>remoteserver</b> mkdir -p ~/.ssh
 </pre>
 
-and enter the password for the account on remote server.
+and enter the password for the account on the remote server (e.g., `hchen@skynet.colorado.edu`).
 
 On local computer, type the following in a terminal
 
@@ -50,14 +50,14 @@ On local computer, type the following in a terminal
 cat ~/.ssh/id_rsa.pub | ssh <b>username</b>@<b>remoteserver</b> 'cat >> ~/.ssh/authorized_keys'
 </pre>
 
-and enter the password for the account on remote server.
+and enter the password for the account on the remote server (e.g., `hchen@skynet.colorado.edu`).
 
 Now you can login in <code><b>username</b>@<b>remoteserver</b></code> without typing password.
 
 ---
 ### `Warning: No xauth data; using fake authentication data for X11 forwarding.` on Mac
 
-Add `alias ssh="ssh -o 'XAuthLocation=/opt/X11/bin/xauth'"` to `.bashrc`.
+Add `alias ssh="ssh -o 'XAuthLocation=/opt/X11/bin/xauth'"` to `.bashrc` or `.bash_profile`.
 
 ---
 
