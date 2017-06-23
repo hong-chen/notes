@@ -1,6 +1,24 @@
 ## Python
 
---------
+---
+### Pythonic
+
+- **Exchange variables**
+
+  Good
+  ```python
+  a = 1
+  b = 2
+  tmp = a
+  a = b
+  b = tmp
+  ```
+
+  Better
+  ```python
+  a, b = b, a
+```
+---
 
 ### _PYTHONPATH_
 
