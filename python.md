@@ -17,7 +17,7 @@
   Better
   ```python
   a, b = b, a
-```
+  ```
 ---
 
 ### _PYTHONPATH_
