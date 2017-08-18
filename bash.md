@@ -159,7 +159,11 @@ make install
 - Install packages using __Homebrew__
 
   ```
+  brew install vim
   brew install gcc
+  brew install wget
+  brew install hdf5
+  brew install netcdf
   brew install 
   ```
 
