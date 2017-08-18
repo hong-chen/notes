@@ -164,6 +164,8 @@ make install
 
 - Install packages using __Homebrew__
 
+  - Use `type` command to check if package has been installed, e.g., `type wget`
+
   ```
   brew install vim
   brew install gcc
