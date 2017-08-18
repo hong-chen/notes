@@ -141,3 +141,13 @@ make install
 - After installation, add the following to `.bash_profile`,
 
   `export LIBRADTRAN_DATA_FILES="/Users/hchen/soft/libradtran/v2.0.1/share/libRadtran/data/"`
+
+---
+
+### Setup Python Coding Environment on Mac
+
+- Download [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) from App Store
+
+- Install [Homebrew](https://brew.sh/)
+  - Open a terminal window, type
+    `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
