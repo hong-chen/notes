@@ -172,6 +172,7 @@ make install
   brew install wget
   brew install hdf5
   brew install netcdf
-  brew install 
   ```
+
+- Install [Anaconda](https://anaconda.org/)
 
