@@ -150,11 +150,17 @@ make install
 
 - Install [XQuartz](https://www.xquartz.org/)
 
+  - After installation, logout current session and login again.
+
 - Install [Homebrew](https://brew.sh/)
 
   - Open a terminal window, type
 
     `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+  - Hit `enter/return` key
+
+  - Type in account password and install
 
 - Install packages using __Homebrew__
 
