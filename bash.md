@@ -148,6 +148,8 @@ make install
 
 - Download [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) from App Store
 
+- Install [XQuartz](https://www.xquartz.org/)
+
 - Install [Homebrew](https://brew.sh/)
 
   - Open a terminal window, type
