@@ -178,7 +178,9 @@ make install
 
 ---
 
-### Fastest way of deleting large number of files
+### Deleting large number of files
 
-`perl -e 'for(<*>){((stat)[9]<(unlink))}'`
+1. `find ./ -name "*" | xargs rm -f`
+
+2. `perl -e 'for(<*>){((stat)[9]<(unlink))}'`
 
