@@ -178,11 +178,12 @@ make install
 
 ---
 
-### Deleting large number of files
+### Delete large number of files
 
-When there are many files in a directory, `rm` will raise system error of `Argument list too long.`
+When there are too many files in a directory, it will raise system error of `Argument list too long.` if one try
+`rm -rf *` to delete all files under the directory.
 
-To work around this problem, one can (e.g., delete all files under current directory)
+To fix this problem, one can use the following commands instead (e.g., delete all files under current directory)
 
 1. `find ./ -name "*" | xargs rm -f`
 
