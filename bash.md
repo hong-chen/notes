@@ -176,3 +176,9 @@ make install
 
 - Install [Anaconda](https://anaconda.org/)
 
+---
+
+### Fastest way of deleting large number of files
+
+`perl -e 'for(<*>){((stat)[9]<(unlink))}'`
+
