@@ -108,7 +108,7 @@ git submodule update --init
 ### __Merge a branch__
 
 For example, you are at the test branch `test`. After testing, you want to merge the
-changes made in test into `master` branch.
+changes made in the `test` into `master` branch.
 
 <pre>
 git merge master
