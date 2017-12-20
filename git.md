@@ -38,8 +38,6 @@ git config credential.helper 'cache --timeout=<b>3600</b>'
 git clone <b>https://github.com/hong-chen/dotfiles.git</b>
 </pre>
 
-<br><br>
-
 - __Initialize local directory and link it to a server repository__
 
 First go to the directory you want to initialize,
