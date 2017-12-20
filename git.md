@@ -111,7 +111,7 @@ For example, you are at the test branch `test`. After testing, you want to merge
 changes made in the `test` into `master` branch.
 
 <pre>
-git merge master
-git checkout master
-git merge --no-ff test
+git merge <b>master</b>
+git checkout <b>master</b>
+git merge --no-ff <b>test</b>
 </pre>
