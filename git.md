@@ -83,8 +83,6 @@ git checkout <b>develop-test1</b>
 git checkout -b <b>develop-test2</b>
 </pre>
 
-<br><br>
-
 - __After changes are made__
 
 <pre>
@@ -106,3 +104,14 @@ git submodule add <b>https://github.com/hakimel/reveal.js.git</b>
 git submodule update --init
 </pre>
 --------
+
+### __Merge a branch__
+
+For example, you are at the test branch `test`. After testing, you want to merge the
+changes made in test into `master` branch.
+
+<pre>
+git merge master
+git checkout master
+git merge --no-ff test
+</pre>
