@@ -119,7 +119,7 @@ Add `alias ssh="ssh -o 'XAuthLocation=/opt/X11/bin/xauth'"` to `.bashrc` or `.ba
 
     `brew install gawk`
 
-    `brew install homebrew/science/nccmp`
+    `brew install https://raw.githubusercontent.com/Homebrew/homebrew-science/b9fd4d202e6f35cd4897962a05ad90d03d7c91f1/nccmp.rb`
 
     `brew install open-mpi`
 
