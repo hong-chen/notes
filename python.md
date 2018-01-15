@@ -77,6 +77,16 @@ in any other code,
 - __Plotting GeoTIFF__
 
  - `pyplot.imshow` is the fastest way if the RGB array is large.
+
+- __Turn off scientific notation and offset of x/y labels__
+
+  <pre>
+  ax.get_xaxis().get_major_formatter().set_scientific(False)
+  ax.get_yaxis().get_major_formatter().set_scientific(False)
+
+  ax.get_xaxis().get_major_formatter().set_useOffset(False)
+  ax.get_yaxis().get_major_formatter().set_useOffset(False)
+  </pre>
 --------
 
 ### [_Cartopy_](http://scitools.org.uk/cartopy/)
