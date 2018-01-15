@@ -76,7 +76,7 @@ in any other code,
 
 - __Plotting GeoTIFF__
 
- - `pyplot.imshow` is the fastest way if the RGB array is large.
+  - `pyplot.imshow` is the fastest way if the RGB array is large.
 
 - __Turn off scientific notation and offset of x/y labels__
 
