@@ -1,5 +1,14 @@
 ## Shell (bash)
 
+---
+
+### Homebrew (how to link to a specific version of package?)
+
+```bash
+brew switch <package name> <version>
+```
+---
+
 --------
 
 ### Customize (`~/.bash_profile`)
