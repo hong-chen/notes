@@ -1,7 +1,7 @@
 Read RGB Imagery (Cropped PNG file from NASA WorldView)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-::
+.. code-block:: python
 
     import numpy as np
     import matplotlib.image as mpl_img
