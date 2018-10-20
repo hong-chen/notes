@@ -14,7 +14,7 @@ Read RGB Imagery (Cropped PNG file from NASA WorldView)
 Create longitude, latitude for the image pixels
 ===============================================
 
-::
+.. code-block:: python
 
     # 'extent' indicates the region of the image
     # The four values should follow the order of
@@ -38,7 +38,7 @@ Create longitude, latitude for the image pixels
 Read HDF4 File
 ~~~~~~~~~~~~~~
 
-::
+.. code-block:: python
 
     from pyhdf.SD import SD, SDC
 
@@ -59,7 +59,7 @@ Read HDF4 File
 Read netCDF4 File
 ~~~~~~~~~~~~~~~~~
 
-::
+.. code-block:: python
 
     import netCDF4 as nc4
 
@@ -73,7 +73,7 @@ Read netCDF4 File
 Read HDF5 File
 ~~~~~~~~~~~~~~~~~
 
-::
+.. code-block:: python
 
     import h5py
 
