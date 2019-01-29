@@ -23,24 +23,31 @@ I purchased many tools/accesssories before installation.
 ## Tools and Accessories
 
 #### Ethernet Cable
-1. Cat6 outdoor-use ethernet cable
-2. RJ45 connector
-3. RJ45 Crimper
+* Cat6 outdoor-use ethernet cable
+* RJ45 connector
+* RJ45 Crimper
+* Wire stripper
+* Cable clamp
+* Electrical tape
+* Cable feed-through bushing
 
 #### PVC Pipe
-5. PVC couplings, elbow, and pipes (1 inch diameter)
-6. Conduit strap
+* PVC couplings, elbow, and pipes (1 inch diameter)
+* Conduit strap
 
 #### Wall Plate
-7. Low-voltage cable plate
-8. Brush plate and low-voltage bracket
+* Drywall saw
+* Low-voltage cable plate
+* Brush plate and low-voltage bracket
+* Outdoor outlet weatherproof cover
 
 #### Drill bit
-10. 16 inch spade bit
+* Drill
+* 1 inch x 16 inch spade bit
+* 3/8 inch x 18 inch drill bit
 
 #### Other
-9. Ladder
-4. Drywall saw
+* Ladder
 
 
 The most challenging thing for me was to design the cable route to minimize the appearance of the cable.
