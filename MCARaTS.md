@@ -4,4 +4,4 @@
 
 2. Change `MPI_USE = 1` in the file `Makefile`.
 
-Then compile the MCARaTS package again through `make`.
+Then compile the MCARaTS package through `make`.
