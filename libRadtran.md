@@ -56,9 +56,12 @@
 
     `brew install gawk`
 
+    `brew install open-mpi`
+
     `brew install https://raw.githubusercontent.com/Homebrew/homebrew-science/b9fd4d202e6f35cd4897962a05ad90d03d7c91f1/nccmp.rb`
 
-    `brew install open-mpi`
+The `nccmp` might not work but won't affect the libRadtran installation.
+
 
 #### *Install libRadtran with GNU make*
 
@@ -66,7 +69,6 @@
 ./configure --prefix=/Users/hchen/soft/libradtran/v2.0.1
 make
 make check
-make install
 </pre>
 
 #### *Notes*

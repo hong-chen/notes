@@ -2,7 +2,7 @@
 
 Notes using [markdown](https://daringfireball.net/projects/markdown/syntax).
 
-- [How to install libRadtran](https://github.com/hong-chen/notes/blob/master/how-to-install-libRadtran.md)
+- [How to install libRadtran](https://github.com/hong-chen/notes/blob/master/libRadtran.md)
 
 - [bash.md](https://github.com/hong-chen/notes/blob/master/bash.md)
 
