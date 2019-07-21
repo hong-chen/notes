@@ -60,7 +60,6 @@
 
     `brew install https://raw.githubusercontent.com/Homebrew/homebrew-science/b9fd4d202e6f35cd4897962a05ad90d03d7c91f1/nccmp.rb`
 
-The `nccmp` might not work but won't affect the libRadtran installation.
 
 
 #### *Install libRadtran with GNU make*
@@ -72,6 +71,8 @@ make check
 </pre>
 
 #### *Notes*
+
+- The `nccmp` might not work but won't affect the libRadtran installation.
 
 - If Anaconda is installed, remove it from `PATH` (simply comment out related lines in `.bash_profile`) before installation;
 
