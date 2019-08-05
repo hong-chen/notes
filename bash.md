@@ -198,3 +198,11 @@ To fix this problem, one can use the following commands instead (e.g., delete al
 
 2. `perl -e 'for(<*>){((stat)[9]<(unlink))}'`
 
+
+---
+
+### Download entire Youtube playlist
+
+```
+youtube-dl -i -f mp4 --yes-playlist 'https://www.youtube.com/watch?v=7Vy8970q0Xc&list=PLwJ2VKmefmxpUJEGB1ff6yUZ5Zd7Gegn2'
+```
